@@ -13,8 +13,7 @@ namespace ZenTools.Custodian
         private static object _lock = new object();
         private static bool applicationIsQuitting = false;
 
-        [SerializeField]
-        private bool persistAcrossScenes = false;
+        [SerializeField] private bool persistAcrossScenes = false;
 
         /// <summary>
         /// Provides a global access point to the singleton instance. Handles lazy instantiation and ensures
