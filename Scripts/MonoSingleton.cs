@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ZenTools.Custonidan
+namespace ZenTools.Custodian
 {
     public class MonoSingleton<T> : MonoBehaviour where T : MonoBehaviour
     {
